@@ -24,7 +24,7 @@ body {
     position: relative;
     height: 75%;
     width: 100vw;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("/pic/backgraound.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("/pic/backgraound4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -255,7 +255,7 @@ input {
 .video-tv {
     width: 75%;
     margin-bottom: 12px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .video-tv-third {
