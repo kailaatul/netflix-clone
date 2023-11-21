@@ -114,6 +114,8 @@ body {
     align-items: center;
 }
 
+
+
 .signin {
     display: flex;
     background-color: rgb(229, 9, 20);
@@ -408,8 +410,26 @@ a {
 }
 
 .language-icon-footer {
-    width: 125px;
+    width: 110px;
     margin: 20px 0;
+}
+
+.lang-sect {
+    display: flex;
+    padding: 5px 10px;
+    gap: 5px;
+    border: 1px solid grey;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang-bottom {
+    width: 15px;
+    height: 15px;
+}
+.dropdownbottom {
+    width: 12px;
+    align-items: center;
 }
 
 .netflix-text {
@@ -450,7 +470,11 @@ a {
 
 @media (max-width: 1300px) {
     h1 {
-        font-size: 35px;
+        font-size: 45px;
+        margin-top: 40px;
+    }
+    .header-section {
+        height: 100%;
     }
 
     .image-bar {
@@ -486,7 +510,7 @@ a {
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 45px;
         margin-top: -70px;
     }
 
